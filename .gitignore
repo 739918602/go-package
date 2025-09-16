@@ -1,0 +1,48 @@
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build directories
+bin/
+obj/
+build/
+
+# Dependency directories
+vendor/
+Godeps/
+
+# Logs
+logs/
+*.log
+
+# Database files
+*.db
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test binary, build with `go test`
+*.test
+
+# Coverage files
+*.out
+# Debug temporary files
+*.tmp
+*.temp
+*.dbg
+# VSCode debug temporary files
+__debug_bin*
+
+conf/
+etc/
+# Configuration files
